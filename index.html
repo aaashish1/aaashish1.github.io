@@ -8,20 +8,26 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      display: flex;
       color: #333;
       line-height: 1.6;
+      background: #f4f4f4;
     }
-.sidebar {
+
+    .sidebar {
       width: 200px;
       background: #eee;
       height: 100vh;
       padding: 20px;
+      box-sizing: border-box;
     }
+
     .sidebar h2 {
       font-size: 20px;
       margin-bottom: 20px;
     }
+
     .sidebar a {
       display: block;
       margin: 10px 0;
@@ -29,9 +35,18 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     .sidebar a:hover {
       text-decoration: underline;
     }
+
+    .main-content {
+      flex: 1;
+      padding: 40px;
+      background: #fff;
+      box-sizing: border-box;
+    }
+
     h1 {
       color: #003087;
       font-size: 2.5em;
@@ -90,6 +105,15 @@
       margin: 10px 0;
       font-size: 1em;
     }
+
+    ul {
+      font-size: 1em;
+      padding-left: 20px;
+    }
+
+    .clear {
+      clear: both;
+    }
   </style>
 </head>
 <body>
@@ -99,22 +123,24 @@
     <a href="Publications.html">Publications</a>
     <a href="research.html">Research</a>
   </div>
+
   <div class="main-content">
     <h1>Abiral Aashish</h1>
-      <div class="profile-container">
-    <img src="1742112209389.jpeg" alt="Profile" class="profile-img">
-    <div class="contact">
-      <p><strong>Email:</strong> a.aashish [@] ufl [DOT] edu</p>
-      <p><strong>Socials:</strong>
-        <a href="https://www.linkedin.com/in/abiralaashish/" target="_blank">LinkedIn</a>
-        <a href="https://www.researchgate.net/profile/Abiral-Aashish" target="_blank">ResearchGate</a>
-      </p>
+
+    <div class="profile-container">
+      <img src="1742112209389.jpeg" alt="Profile" class="profile-img">
+      <div class="contact">
+        <p><strong>Email:</strong> a.aashish [@] ufl [DOT] edu</p>
+        <p><strong>Socials:</strong>
+          <a href="https://www.linkedin.com/in/abiralaashish/" target="_blank">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Abiral-Aashish" target="_blank">ResearchGate</a>
+        </p>
+      </div>
     </div>
-  </div>
 
     <h2>About Me</h2>
     <p>
-     I am a second-year Ph.D. student in Transportation Engineering at the University of Florida, where I am also pursuing a Ph.D. minor in Urban and Regional Planning. I completed both my Bachelor's and Master's degrees in Transportation Engineering from Pulchowk Campus, Tribhuvan University, Nepal. My doctoral research is currently being supervised by Dr. Sivaramakrishnan Srinivasan.
+      I am a second-year Ph.D. student in Transportation Engineering at the University of Florida, where I am also pursuing a Ph.D. minor in Urban and Regional Planning. I completed both my Bachelor's and Master's degrees in Transportation Engineering from Pulchowk Campus, Tribhuvan University, Nepal. My doctoral research is currently being supervised by Dr. Sivaramakrishnan Srinivasan.
     </p>
     <p>
       My research is centered on improving transportation safety and planning through data-driven methodologies. Specifically, I focus on:
@@ -123,7 +149,7 @@
     </p>
     <p>
       In addition to crash analysis, my broader interests include big data analytics, safety performance modeling, travel behavior analysis, and transportation planning. I frequently work with discrete choice models and other statistical as well as Machine Learning techniques to examine behavioral responses and guide data-driven decision-making in transportation systems.
-</p>
+    </p>
 
     <h2>Education</h2>
     <ul>
@@ -143,3 +169,4 @@
   </div>
 </body>
 </html>
+
