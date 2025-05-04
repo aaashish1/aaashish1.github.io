@@ -27,16 +27,21 @@
             border-radius: 6px;
             box-shadow: 0 0 5px rgba(0,0,0,0.15);
         }
-        .content {
+        .section {
             overflow: hidden;
+            margin-bottom: 30px;
         }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
+        h1, h2 {
+            color: #003366;
         }
         p {
             font-size: 18px;
             line-height: 1.6;
+        }
+        ul {
+            font-size: 18px;
+            line-height: 1.6;
+            padding-left: 20px;
         }
         @media (max-width: 600px) {
             .profile-img {
@@ -49,12 +54,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="content">
-            <img src='1742112209389.jpeg' alt="Abiral Aashish" class="profile-img">
+        <div class="section">
+            <img src="94e5f2e4-7d6a-48b6-a988-6729cafa2f71.png" alt="Abiral Aashish" class="profile-img">
             <h1>Abiral Aashish</h1>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
             <p>
-                I am a second year Ph.D. student at the University of Florida. My research interest is in the field of <strong>Transportation Safety</strong> like understanding different causal factors for crashes and <strong>Machine Learning applications</strong> in Transportation research. I am also interested in exploring different facets of <strong>Travel Behavior Studies</strong> and its implications in <strong>Transportation Planning</strong>.
+                I am a second year Ph.D. student here at the University of Florida. I am currently also pursuing a Ph.D. minor tract in Urban Planning from the Department of Urban and Regional Planning at the University of Florida. I received my Bachelor's and Master's degrees from Pulchowk Campus, Tribhuvan University, Nepal. I am currently being supervised for my doctoral studies by Dr. Sivaramakrishnan Srinivasan.
             </p>
+            <p>
+                My research mainly focuses on: 
+                <br>a) understanding causal factors behind different kinds of crashes; 
+                <br>b) developing statistical and machine learning models to predict and analyze spatial and temporal factors behind crashes. 
+                <br>I am also interested in exploring different facets of Travel Behavior Studies and their implications in Transportation Planning.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Ph.D. Major in Transportation Engineering, University of Florida, January 2024 – Present</li>
+                <li>Ph.D. Minor in Urban Planning, University of Florida, December 2024 – Present</li>
+                <li>M.Sc. in Transportation Engineering, Pulchowk Campus, Tribhuvan University, Nepal, 2017 – 2019</li>
+            </ul>
         </div>
     </div>
 </body>
